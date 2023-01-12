@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(../images/bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.top-head {
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo h1 {
+    position: absolute;
+    font-size: 30px;
+    color: yellow;
+    top: 20px;
+    left: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.nav-bar {
+    position: absolute;
+    margin-top: 30px;
+    right: 140px;
+}
+
+.nav-bar a {
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: yellow;
+    letter-spacing: 1.5px;
+    margin-right: 15px;
+}
+
+.nav-bar a:hover {
+    color: orangered;
+    transition: 0.8s ease;
+}
+
+
+
+.top-btn {
+    position: absolute;
+    float: right;
+    right: 40px;
+    top: 28px;
+}
+
+.hire-me {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: yellow;
+    border-style: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hire-me:hover {
+    transform: scale(1.2);
+    transition: transform 0.8s ease-in;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-align: left;
+    
+    padding: 5px;
+}
+
+.main .title1 {
+    position: absolute;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.main .title2 {
+    color: yellow;
+    font-size: 120px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+
+.main .para {
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+.main-btn {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    transform: scale(1.2);
+    transition: transform 0.8s ease-in;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.5);
+    width: 220px;
+    height: 300px;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form .form-title {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form .label-email {
+    position: absolute;
+    color: yellow;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.form .email {
+    position: absolute;
+    margin-top: 40px;
+    height: 20px;
+    width: 210px;
+    background-color: transparent;
+    color: yellow;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-bottom: 1px solid yellow;
+}
+
+.form .email:focus {
+    outline: none;
+}
+
+.form .label-pass {
+    position: absolute;
+    color: yellow;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: 70px;
+}
+
+.form .pass {
+    position: absolute;
+    margin-top: 90px;
+    height: 20px;
+    width: 210px;
+    background-color: transparent;
+    color: yellow;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-bottom: 1px solid yellow;
+}
+
+.form .pass:focus {
+    outline: none;
+}
+
+.form .login-btn {
+    background-color: yellow;
+    border: 1px solid orange;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 210px;
+    padding: 5px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.form .login-btn:hover {
+    background-color: orange;
+    border: 1px solid orange;
+    transform: scale(95%);
+    transition: transform 0.8s ease-in;
+}
+
+.form .link {
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.form .link span  {
+    position: absolute;
+    color: grey;
+    text-transform: capitalize;
+    margin-top: 6px;
+}
+
+.form .link span a {
+    color: grey;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.icons {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.icons i {
+    margin: 10px;
+    color: white;
+}
+
+.icons i:hover{
+    transform: scale(1.2);
+}
